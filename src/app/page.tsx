@@ -6,7 +6,7 @@ import Presentation from "@/components/presentation/presentation-section";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
-      <div className="w-full bg-green-400">
+      <div className="w-full bg-green-400 absolute">
         <NavBar />
       </div>
       <div className="flex w-full  justify-start items-center h-screen bg-green-400">

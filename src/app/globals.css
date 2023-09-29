@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: black;
+  --foreground-black-hex: #000000;
+  --foreground-white-hex: #ffffff;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
   --background-start-white: 250, 250, 250;
@@ -18,7 +19,7 @@
 }
 
 body {
-  color: var(--foreground-rgb);
+  color: var(--foreground-white-hex);
   background: rgb(var(--background-start-white));
 }
 html {
