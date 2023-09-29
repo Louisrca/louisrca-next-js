@@ -4,7 +4,7 @@ import Card from "../ui/card";
 
 export function GridProject() {
   return (
-    <div className="grid grid-cols-2 w-full">
+    <div className="grid w-full sm:grid-cols-1 md:grid-cols-2 ">
       <Card>
         <div className="flex flex-row gap-4">
           <Button kind="default">View Demo</Button>

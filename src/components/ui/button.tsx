@@ -9,8 +9,8 @@ export default function Button({
 }) {
   return (
     <button
-      className={clsx("p-2 rounded-lg border-1 duration-700", {
-        "bg-red-200 hover:bg-red-400": kind === "default",
+      className={clsx("p-2 border-1 duration-700", {
+        "bg-indigo-700 hover:bg-indigo-400 text-white": kind === "default",
         "bg-transparent hover:font-bold text-xl": kind === "nav",
       })}
       {...props}
