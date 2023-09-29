@@ -15,12 +15,11 @@ export default function Presentation() {
       >
         <h1 className="text-6xl z-40 text-white" id="titlePresentation">
           Hi, my name is{" "}
-          <span className="bg-gradient-to-l from-indigo-700 via-purple-400 to-teal-300 bg-clip-text text-transparent font-medium">
-            Louis Rocca
-          </span>
-          , I'm a Full Stack Developer!
+          {/* <span className="bg-gradient-to-l from-indigo-700 via-purple-400 to-teal-300 bg-clip-text text-transparent font-medium"></span> */}
+          <span className="text-indigo-500 font-medium">Louis Rocca</span>, I'm
+          a Full Stack Developer!
         </h1>
-        <p></p>
+        <p>NICE TO MEET YOU</p>
       </div>
     </>
   );

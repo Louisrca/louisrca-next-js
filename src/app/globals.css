@@ -26,19 +26,3 @@ html {
   --scroll-behavior: smooth !important;
   scroll-behavior: smooth !important;
 }
-
-#titlePresentation,
-#buttonPresentation {
-  z-index: 50;
-  animation: fade 4s;
-}
-
-@keyframes fade {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-    z-index: 50;
-  }
-}

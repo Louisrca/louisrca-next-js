@@ -12,10 +12,10 @@ export default function Home() {
       <div className="flex w-full  justify-start items-center h-screen bg-green-400">
         <Presentation />
       </div>
-      <div className="w-full h-max border-2" id="project">
+      <div className="w-full h-screen border-2" id="project">
         <GridProject />
       </div>
-      <footer>louis rocca</footer>
+      <footer className="text-black">louis rocca</footer>
     </main>
   );
 }
