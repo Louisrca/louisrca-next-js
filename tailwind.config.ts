@@ -15,10 +15,10 @@ const config: Config = {
       },
     },
     screens: {
-      sm: "378px",
-      // => @media (min-width: 640px) { ... }
+      sm: "375px",
+      // => @media (min-width: 375px) { ... }
 
-      md: "1023px",
+      md: "1024px",
       // => @media (min-width: 1024px) { ... }
 
       lg: "1280px",
