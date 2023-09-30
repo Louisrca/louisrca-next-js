@@ -12,6 +12,7 @@
     "clsx": "^2.0.0",
     "next": "latest",
     "react": "latest",
+    "react-curved-text": "^2.0.2",
     "react-dom": "latest"
   },
   "devDependencies": {

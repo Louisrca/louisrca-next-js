@@ -27,23 +27,74 @@ html {
   scroll-behavior: smooth !important;
 }
 
+#curvedTextContainer {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  animation: rotate-text 8s linear infinite;
+}
+
+#curvedTextContainer span {
+  position: absolute;
+  transform-origin: 0 100px;
+}
+
+@keyframes rotate-text {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 @media screen and (min-width: 375px) and (max-width: 700px) {
   #titleName {
     box-shadow: 0px 0px 0px 0px transparent !important;
   }
 }
 
-@media (max-width: 1440px) {
+@media (min-width: 1024px) {
   #svg-rounded-shape {
-    width: 200px !important;
-    height: 200px !important;
+    width: 250px !important;
+    height: 250px !important;
     top: 0rem !important;
-    left: -1.5rem !important;
+    left: -2rem !important;
   }
   #svg-streak-shape {
     width: 250px !important;
     height: 250px !important;
-    top: 42.25rem !important;
+    top: 49.12rem !important;
+    left: 69rem !important;
+  }
+}
+
+@media (min-width: 1440px) {
+  #svg-rounded-shape {
+    width: 250px !important;
+    height: 250px !important;
+    top: 0rem !important;
+    left: -2rem !important;
+  }
+  #svg-streak-shape {
+    width: 250px !important;
+    height: 250px !important;
+    top: 43.12rem !important;
     left: 74.25rem !important;
+  }
+}
+
+@media (min-width: 1920px) {
+  #svg-rounded-shape {
+    width: 300px !important;
+    height: 300px !important;
+    top: 0rem !important;
+    left: -2.75rem !important;
+  }
+  #svg-streak-shape {
+    width: 400px !important;
+    height: 400px !important;
+    top: 49.75rem !important;
+    left: 90rem !important;
   }
 }
