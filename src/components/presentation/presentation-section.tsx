@@ -1,5 +1,4 @@
-import Link from "next/link";
-import Button from "../ui/button";
+
 import { GridShapes } from "@/common/svg/grid-shapes";
 import { RoundedShapes } from "@/common/svg/rounded-shape";
 import { StreakShapes } from "@/common/svg/streak-shape";
