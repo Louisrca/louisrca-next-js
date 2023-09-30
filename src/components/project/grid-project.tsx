@@ -1,4 +1,3 @@
-import bgImage from "../../common/img/bg-dalle.png";
 import { ProjectsData } from "@/lib/projects-data";
 import Button from "../ui/button";
 import Card from "../ui/card";

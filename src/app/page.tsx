@@ -1,4 +1,3 @@
-import Button from "../components/ui/button";
 import { NavBar } from "../components/nav/navbar-component";
 import { GridProject } from "../components/project/grid-project";
 import Presentation from "@/components/presentation/presentation-section";
