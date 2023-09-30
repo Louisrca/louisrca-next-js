@@ -1,0 +1,38 @@
+export const ProjectsData = [
+  {
+    id: 1,
+    title: "Journey",
+    subtitle: "",
+    description: "",
+    href: "",
+    img: "",
+    video: "",
+  },
+  {
+    id: 2,
+    title: "Fitness Park IOT",
+    subtitle: "",
+    description: "",
+    href: "",
+    img: "",
+    video: "",
+  },
+  {
+    id: 3,
+    title: "City GO",
+    subtitle: "",
+    description: "",
+    href: "",
+    img: "",
+    video: "",
+  },
+  {
+    id: 4,
+    title: "BOARD",
+    subtitle: "",
+    description: "",
+    href: "",
+    img: "",
+    video: "",
+  },
+];
