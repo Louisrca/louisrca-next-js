@@ -40,7 +40,7 @@ export default function Presentation() {
           id="titleName"
         >
           <h1 className=" text-6xl z-40 text-white" id="titlePresentation">
-            I &apos;m Louis Rocca a
+            I&apos;m Louis Rocca a
             <span className="sm:text-green-400 text-indigo-500 font-bold">
               {" "}
               Full Stack Developer.
