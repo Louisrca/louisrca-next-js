@@ -1,4 +1,5 @@
 import { ProjectsData } from "@/lib/projects-data";
+import Link from "next/link";
 import Button from "../ui/button";
 import Card from "../ui/card";
 
@@ -11,8 +12,10 @@ export function GridProject() {
             <Card key={project.id}>
               <h1 className="text-4xl text-indigo-700">{project.title}</h1>
               <div className="flex flex-row gap-4 h-max">
+                <Link href={project.href} target={"_blank"}>
+                  <Button kind="default">View Repo</Button>
+                </Link>
                 <Button kind="default">View Demo</Button>
-                <Button kind="default">View Repo</Button>
               </div>
             </Card>
           );

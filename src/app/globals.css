@@ -28,13 +28,25 @@ html {
 }
 
 #curvedTextContainer {
-  height: 300px;
-  width: 300px;
-  position: absolute;
-  animation: rotate-text 8s linear infinite;
+  /* animation: rotate-text 18s linear infinite; */
 }
 
 #curvedTextContainer span {
+  text-align: center;
+  font-weight: bold;
+  left: 25rem;
+  top: 40rem;
+  position: absolute;
+  transform-origin: 0 100px;
+}
+
+
+
+#curvedTextContainer {
+  text-align: center;
+  font-weight: bold;
+  left: 25rem;
+  top: 40rem;
   position: absolute;
   transform-origin: 0 100px;
 }

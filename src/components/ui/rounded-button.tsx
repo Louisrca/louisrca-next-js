@@ -4,22 +4,26 @@ import React, { useEffect } from "react";
 export const RoundedButton = () => {
   useEffect(() => {
     return () => {
-      let text = "text à changéfz zpfaoz -";
+      let text = "Look at my resume - ";
       let container = document.getElementById("curvedTextContainer");
       if (container) {
         for (let i = 0; i < text.length; i++) {
           let span = document.createElement("span");
           span.innerHTML = text[i];
           container.appendChild(span);
-          span.style.transform = `rotate(${15 * i}deg)`;
+          console.log(text[i]);
+          span.style.transform = `rotate(${18 * i}deg)`;
         }
       }
     };
   }, []);
 
+  
+
   return (
-    <div className="flex justify-center items-center" id="curvedTextContainer">
-      <p className="w-96 h-96"></p>
-    </div>
+    <p
+      id="curvedTextContainer"
+      className="absolute inset-0 flex justify-center items-center"
+    ></p>
   );
 };
