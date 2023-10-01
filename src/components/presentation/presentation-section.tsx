@@ -1,6 +1,9 @@
 import { GridShapes } from "@/common/svg/grid-shapes";
 import { RoundedShapes } from "@/common/svg/rounded-shape";
 import { StreakShapes } from "@/common/svg/streak-shape";
+import Link from "next/link";
+import Button from "../ui/button";
+import { H1 } from "../ui/h1";
 import { RoundedButton } from "../ui/rounded-button";
 export default function Presentation() {
   return (
@@ -28,15 +31,20 @@ export default function Presentation() {
           }}
           id="titleName"
         >
-          <h1 className=" text-6xl z-40 text-white" id="titlePresentation">
+          <H1 kind="white">
             I&apos;m Louis Rocca a
             <span className="sm:text-green-400 text-indigo-500 font-bold ">
               {" "}
               Full Stack Developer.
             </span>
-          </h1>
+          </H1>
         </div>{" "}
-        {/* <RoundedButton /> */}
+        <div className="absolute left-1/3 top-2/3">
+          <Link href={"#resume"}>
+            {" "}
+            <Button kind="green">Know me ?</Button>
+          </Link>
+        </div>
       </div>
       <div className="sm:hidden md:block w-1/3 h-full bg-green-400"></div>
     </section>

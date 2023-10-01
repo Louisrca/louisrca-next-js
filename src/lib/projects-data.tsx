@@ -1,3 +1,5 @@
+import journeyImage from "@/common/img/journey/journey-description.png";
+
 export const ProjectsData = [
   {
     id: 1,
@@ -5,7 +7,7 @@ export const ProjectsData = [
     subtitle: "",
     description: "",
     href: "https://github.com/LouisSleep/Journey",
-    img: "",
+    img: "/img/journey-description.png",
     video: "",
   },
   {
