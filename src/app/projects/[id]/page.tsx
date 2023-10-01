@@ -8,7 +8,7 @@ export default function Page({ params }: { params: { id: string } }) {
     <div className="">
       {ProjectsData.filter((project) => project.id === parseInt(params.id)).map(
         (project) => (
-          <div>
+          <div key={project.id}>
             <H1 kind="indigo">{project.title}</H1>
             <div>
               <Link href={project.href}>
