@@ -39,7 +39,10 @@ export default function Presentation() {
             </span>
           </H1>
         </div>{" "}
-        <div className="absolute md:left-1/3 md:top-2/3" id="buttonTopSection">
+        <div
+          className="sm:flex sm:justify-center sm-w-full md:absolute md:left-1/3 md:top-2/3"
+          id="buttonTopSection"
+        >
           <Link href={"#resume"}>
             {" "}
             <Button kind="green">Know me ?</Button>
