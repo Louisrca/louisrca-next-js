@@ -39,7 +39,10 @@ export default function Presentation() {
             </span>
           </H1>
         </div>{" "}
-        <div className="absolute left-1/3 top-2/3">
+        <div
+          className="absolute sm:left-32 md:left-1/3 md:top-2/3"
+          id="buttonTopSection"
+        >
           <Link href={"#resume"}>
             {" "}
             <Button kind="green">Know me ?</Button>

@@ -40,8 +40,6 @@ html {
   transform-origin: 0 100px;
 }
 
-
-
 #curvedTextContainer {
   text-align: center;
   font-weight: bold;
@@ -61,6 +59,10 @@ html {
 }
 
 @media screen and (min-width: 375px) and (max-width: 700px) {
+  #buttonTopSection {
+    left: 7.5rem !important;
+    top: 32rem;
+  }
   #titleName {
     box-shadow: 0px 0px 0px 0px transparent !important;
   }
