@@ -7,7 +7,7 @@ import { H1 } from "../ui/h1";
 export function GridProject() {
   const backgroundImageUrl = "@/common/img/journey/journey-description.png";
   return (
-    <section className="w-full h-screen border-2" id="project">
+    <section className="w-full h-screen" id="project">
       <div className="grid sm:grid-cols-1 md:grid-cols-2 h-full">
         {ProjectsData.map((project) => {
           return (
