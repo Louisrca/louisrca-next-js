@@ -8,6 +8,7 @@ export const ProjectsData = [
     description: "",
     href: "https://github.com/LouisSleep/Journey",
     img: "/img/journey/journey-principal.png",
+
     imgs: [
       "/img/journey/journey-principal.png",
       "/img/journey/journey-description.png",
@@ -30,6 +31,7 @@ export const ProjectsData = [
     description: "",
     href: "https://github.com/LouisSleep/citygo-app",
     img: "/img/citygo/citygo-principal.png",
+    logo: "/img/citygo/citygo-logo.png",
     video: "",
   },
   {

@@ -1,10 +1,13 @@
+import { H1 } from "../ui/h1";
+import { Article } from "../ui/article";
+
 export const Resume = () => {
   return (
     <section className="h-screen p-8" id="resume">
       <div className="p-8">
-        <h1 className="text-6xl text-green-400 font-bold">
-          Hi There is My Resume
-        </h1>
+        <H1 kind="default">How am I ?</H1>
+
+        <Article kind="default">Voici ma description</Article>
       </div>
     </section>
   );

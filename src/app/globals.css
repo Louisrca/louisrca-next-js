@@ -62,6 +62,9 @@ html {
   #titleName {
     box-shadow: 0px 0px 0px 0px transparent !important;
   }
+  #background-image-card-home-page {
+    background-image: url("/img/citygo/citygo-logo.png");
+  }
 }
 
 @media (min-width: 1024px) {
