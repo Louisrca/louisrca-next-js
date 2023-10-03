@@ -1,6 +1,6 @@
 "use client";
 import { ProjectsData } from "@/lib/projects-data";
-import { getWindowWidth } from "@/utils/getWindowWidth";
+import { GetWindowWidth } from "@/utils/getWindowWidth";
 import Link from "next/link";
 import Button from "../ui/button";
 import Card from "../ui/card";
@@ -11,7 +11,7 @@ export function GridProject() {
     <section className="w-full h-screen" id="project">
       <div className="grid sm:grid-cols-1 md:grid-cols-2 h-full">
         {ProjectsData.map((project) => {
-          return getWindowWidth() < 1024 ? (
+          return GetWindowWidth() < 1024 ? (
             <Card key={project.id}>
               <div
                 className="h-full bg-no-repeat bg-cover flex justify-end flex-col p-8"
