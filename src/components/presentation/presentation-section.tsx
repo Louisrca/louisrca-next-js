@@ -48,7 +48,7 @@ export default function Presentation() {
           </Link>
         </div>
       </div>
-      <div className="sm:hidden md:block w-1/3 h-full bg-green-400"></div>
+      <div className="sm:hidden md:block h-full bg-green-400" style={{width : "41rem"}}></div>
     </section>
   );
 }

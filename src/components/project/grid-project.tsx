@@ -24,9 +24,9 @@ export function GridProject() {
                   <Link href={project.href} target={"_blank"}>
                     <Button kind="default">View Repo</Button>
                   </Link>
-                  <Link href={`/projects/${project.id}`}>
+                  {/* <Link href={`/projects/${project.id}`}>
                     <Button kind="default">View Details</Button>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </Card>
@@ -43,9 +43,9 @@ export function GridProject() {
                   <Link href={project.href} target={"_blank"}>
                     <Button kind="default">View Repo</Button>
                   </Link>
-                  <Link href={`/projects/${project.id}`}>
+                  {/* <Link href={`/projects/${project.id}`}>
                     <Button kind="default">View Details</Button>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </Card>
