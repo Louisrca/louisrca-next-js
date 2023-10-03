@@ -8,7 +8,7 @@ export const ProjectsData = [
     description: "",
     href: "https://github.com/LouisSleep/Journey",
     img: "/img/journey/journey-principal.png",
-
+    logo: "/img/journey/journey-logo.png",
     imgs: [
       "/img/journey/journey-principal.png",
       "/img/journey/journey-description.png",
