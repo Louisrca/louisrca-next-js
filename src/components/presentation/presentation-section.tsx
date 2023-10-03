@@ -22,7 +22,7 @@ export default function Presentation() {
           <StreakShapes id="svg-streak-shape" width={"400"} height={"400"} />
         </div>
         <div
-          className="sm:w-full sm:bg-transparent sm:border-0 md:w-1/2 md:ml-32 md:border-2 sm:p-6 md:p-4 rounded-0 md:border-white z-40 bg-green-400"
+          className="sm:w-full sm:bg-transparent sm:border-0 md:w-1/2 md:ml-32 md:border-2 p-4 rounded-0 md:border-white z-40 bg-green-400"
           style={{
             boxShadow: "10px 10px 0 white",
             borderRadius: "0px",
