@@ -34,7 +34,7 @@ export default function Presentation() {
             I&apos;m Louis Rocca a
             <span className="sm:text-green-400 text-indigo-500 font-bold ">
               {" "}
-              Full Stack Developer.
+              Front End Developer.
             </span>
           </H1>
         </div>{" "}
