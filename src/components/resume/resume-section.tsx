@@ -9,7 +9,7 @@ export const Resume = () => {
         <H2 kind="default">How am I ?</H2>
 
         <Article kind="default">
-          I'm studing at Hetic
+          Im studing at Hetic
         </Article>
       </div>
     </section>
