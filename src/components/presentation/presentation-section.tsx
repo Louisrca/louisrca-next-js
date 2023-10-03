@@ -22,7 +22,7 @@ export default function Presentation() {
           <StreakShapes id="svg-streak-shape" width={"400"} height={"400"} />
         </div>
         <div
-          className="sm:w-full sm:bg-transparent sm:p-10 md:w-1/2 md:ml-32 md:border-2 md:p-4 rounded-0 md:border-white z-40 bg-green-400"
+          className="sm:w-full sm:bg-transparent sm:p-8 md:w-1/2 md:ml-32 md:border-2 md:p-4 rounded-0 md:border-white z-40 bg-green-400"
           style={{
             boxShadow: "10px 10px 0 white",
             borderRadius: "0px",
@@ -39,7 +39,7 @@ export default function Presentation() {
           </H1>
         </div>{" "}
         <div
-          className="sm:flex sm:justify-start sm:ml-10 sm-w-full md:absolute md:left-1/3 md:top-2/3"
+          className="sm:flex sm:justify-start sm:ml-8 sm-w-full md:absolute md:left-1/3 md:top-2/3"
           id="buttonTopSection"
         >
           <Link href={"#resume"}>
