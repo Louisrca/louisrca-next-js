@@ -13,10 +13,12 @@ export function GridProject() {
           return (
             <Card key={project.id}>
               <div
-                className="h-full bg-no-repeat bg-cover  flex justify-end flex-col p-8"
-                style={{ backgroundImage: `url('${project.img}')` }}
+                className="h-full bg-no-repeat bg-cover flex justify-end flex-col p-8"
+                style={{
+                  backgroundImage: `url('${project.img}')`,
+                }}
               >
-                <div className="flex flex-row gap-4 h-max">
+                <div className="flex flex-row gap-4 h-max z-50">
                   <Link href={project.href} target={"_blank"}>
                     <Button kind="default">View Repo</Button>
                   </Link>

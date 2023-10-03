@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <section className="sm:h-screen flex justify-center items-center text-indigo-500 ">
-      Louis Rocca 2023{" "}
+    <section className="flex w-full h-screen justify-center items-center text-indigo-500 border-2 ">
+      <div className=""> Louis Rocca 2023 </div>
     </section>
   );
 }

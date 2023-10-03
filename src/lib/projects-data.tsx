@@ -7,7 +7,8 @@ export const ProjectsData = [
     subtitle: "",
     description: "",
     href: "https://github.com/LouisSleep/Journey",
-    img: "/img/journey-description.png",
+    img: "/img/journey-principal.png",
+    imgs:["/img/journey-principal.png", "/img/journey-description.png"],
     video: "",
   },
   {
@@ -16,7 +17,7 @@ export const ProjectsData = [
     subtitle: "",
     description: "",
     href: "https://github.com/LouisSleep/iot-project",
-    img: "",
+    img: "/img/journey-description.png",
     video: "",
   },
   {
@@ -25,7 +26,7 @@ export const ProjectsData = [
     subtitle: "",
     description: "",
     href: "https://github.com/LouisSleep/citygo-app",
-    img: "",
+    img: "/img/journey-description.png",
     video: "",
   },
   {
@@ -34,7 +35,7 @@ export const ProjectsData = [
     subtitle: "",
     description: "",
     href: "https://github.com/LouisSleep/board-dashboard-nextjs",
-    img: "",
+    img: "/img/journey-description.png",
     video: "",
   },
 ];

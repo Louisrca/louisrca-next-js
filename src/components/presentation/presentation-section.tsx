@@ -4,10 +4,9 @@ import { StreakShapes } from "@/common/svg/streak-shape";
 import Link from "next/link";
 import Button from "../ui/button";
 import { H1 } from "../ui/h1";
-import { RoundedButton } from "../ui/rounded-button";
 export default function Presentation() {
   return (
-    <section className="flex w-full  justify-start items-center h-screen bg-indigo-400">
+    <section className="flex w-full h-screen  justify-start items-center  bg-indigo-400">
       <div>
         <div
           className="sm:hidden md:block absolute left-1/2 top-1/3"
