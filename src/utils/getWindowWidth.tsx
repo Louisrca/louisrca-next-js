@@ -8,7 +8,6 @@ export const GetWindowWidth = () => {
   useEffect(() => {
     setWindowWidth(window.innerWidth);
   }, []);
-  console.log(windowWidth);
 
   return windowWidth;
 };
