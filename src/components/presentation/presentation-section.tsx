@@ -39,7 +39,7 @@ export default function Presentation() {
           </H1>
         </div>{" "}
         <div
-          className="sm:flex sm:justify-start sm:ml-8 sm-w-full md:absolute md:left-1/3 md:top-2/3"
+          className="sm:flex sm:justify-start sm:ml-8  md:absolute md:left-1/3 md:top-2/3"
           id="buttonTopSection"
         >
           <Link href={"#resume"}>
@@ -48,10 +48,7 @@ export default function Presentation() {
           </Link>
         </div>
       </div>
-      <div
-        className="sm:hidden md:block h-full bg-green-400"
-        style={{ width: "41rem" }}
-      ></div>
+      <div className="sm:hidden md:block h-full w-2/5 bg-green-400"></div>
     </section>
   );
 }

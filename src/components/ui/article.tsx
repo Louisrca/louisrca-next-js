@@ -7,8 +7,8 @@ export const Article = ({
 }: PropsWithChildren & { kind?: "default" | "green" | "white" }) => {
   return (
     <article
-      className={clsx("text-lg", {
-        "text-indigo-700": kind === "default",
+      className={clsx("text-2xl mt-10 w-3/5", {
+        "text-indigo-400": kind === "default",
         "text-green-400": kind === "green",
         "text-white": kind === "white",
       })}

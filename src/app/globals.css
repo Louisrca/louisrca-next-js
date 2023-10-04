@@ -80,6 +80,13 @@ html {
     top: 49.12rem !important;
     left: 69rem !important;
   }
+
+  #svg-wave-shape {
+    width: 400px !important;
+    height: 400px !important;
+    top: 68rem !important;
+    left: -12rem !important;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -109,5 +116,12 @@ html {
     height: 400px !important;
     top: 49.75rem !important;
     left: 90rem !important;
+  }
+
+  #svg-wave-shape {
+    width: 400px !important;
+    height: 400px !important;
+    top: 75.5rem !important;
+    left: -12rem !important;
   }
 }
